@@ -267,7 +267,7 @@ aerobol <- function(day1) {
   colnames(dfx1)[1:5]<-c("id","estacion",'lon','lat','alt')
   dfx1<-dfx1[,c(1:5,11,6:10)]
   df1<-as(vect(dfx1,geom=c('lon','lat'),crs="+proj=longlat +datum=WGS84"),'Spatial')
-  setwd('/home/nihelruiz/Documents/2024/code/')
+  setwd('C:/Users/Cocha/Desktop/output-cbba/')
   bol<-getData('GADM',country='BOL',level=1)
 
   rr <- tags$div(
