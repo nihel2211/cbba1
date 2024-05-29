@@ -15,7 +15,7 @@
 
 aerobol <- function(day1) {
   rm(list = ls());gc()
-  pacman::p_load(tidyverse,glue,lubridate,openxlsx,latex2exp,leaflet.extras,terra,sf,raster,leafpop,mapview,kableExtra,kableExtra,cols4all,htmlwidgets,htmltools,common)
+  pacman::p_load(tidyverse,glue,lubridate,openxlsx,leaflet.extras,terra,sf,raster,leafpop,mapview,kableExtra,kableExtra,cols4all,htmlwidgets,htmltools,common)
   day<-gsub('-','',Sys.Date())
   day0<-gsub('-','',(Sys.Date()-day1))
 
