@@ -19,7 +19,7 @@ aerobol <- function(day1) {
   day<-gsub('-','',Sys.Date())
   day0<-gsub('-','',(Sys.Date()-day1))
 
-  station_Bol<-read.xlsx('C:/User/Cocha/Desktop/output-cbba/AeropBolivia.xlsx')
+  station_Bol<-read.xlsx('C:/Users/Cocha/Desktop/output-cbba/AeropBolivia.xlsx')
   code_bol<-station_Bol$wmo_id
   # code_bol<-c(85284,85151,85175,85315,85214,85041,85223,85196,85032,85201,
   #             85114,85242,85293,85332,85289,85140,85043,85268,85141,85152,
